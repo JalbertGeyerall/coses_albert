@@ -33,7 +33,7 @@ body{
   top: 200px;
   left: 50%;
   transform: translateX(-50%);
-  width: min(860px, calc(100% - 40px));
+  width: min(760px, calc(100% - 40px));
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 12px;
@@ -78,7 +78,7 @@ body{
   top: 340px;
   left: 50%;
   transform: translateX(-50%);
-  width: min(860px, calc(100% - 40px));
+  width: min(760px, calc(100% - 40px));
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
@@ -610,4 +610,5 @@ body{
   opacity: 1 !important;
   color: inherit !important; /* Mantiene el color del texto */
   -webkit-text-fill-color: currentColor !important; /* Safari/Chrome */
+
 }
